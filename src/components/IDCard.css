@@ -1,0 +1,46 @@
+.idcard {
+    width: 500px;
+    height: 600px;
+    background-image: url('../assets/id-card-template.png'); /* your PNG */
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    margin: 10px;
+  }
+  
+  .text-overlay {
+    position: absolute;
+    color: black;
+    font-size: 16px;
+    font-weight: bold;
+    /*font-style: oblique;*/
+  }
+  
+  .name {
+    top: 290px;
+    left: 95px;
+  }
+  
+  .centre-code {
+    top: 210px;
+    left: 150px;
+  }
+  
+  .centre-name {
+    top: 235px;
+    left: 130px;
+    font-size: 11px;
+    position: absolute;
+    width: 300px;
+  }
+  
+  .contact {
+    top: 325px;
+    left: 135px;
+  }
+  
+  .serial-no {
+    top: 52px;
+    left: 110px;
+  }
+  
