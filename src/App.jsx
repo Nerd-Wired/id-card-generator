@@ -1,6 +1,6 @@
 import React, { useRef, useState, useEffect } from 'react';
 import { exportToPDF } from './utils/pdfExporter';
-import { parseExcel } from './utils/excelparser';
+import { excelParser } from './utils/excelparser';
 import IDCard from './components/IDCard';
 
 function App() {
@@ -16,7 +16,7 @@ function App() {
     const file = e.target.files[0];
     if (!file) return;
 
-    parseExcel(file, (data) => {
+    excelParser(file, (data) => {
       setCards(data);
     });
   };

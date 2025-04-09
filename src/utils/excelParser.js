@@ -1,6 +1,6 @@
 import * as XLSX from 'xlsx';
 
-export const parseExcel = (file, callback) => {
+export const excelParser = (file, callback) => {
   const reader = new FileReader();
   reader.onload = (e) => {
     const data = new Uint8Array(e.target.result);
