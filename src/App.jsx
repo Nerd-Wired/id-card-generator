@@ -5,6 +5,8 @@ import IDCard from './components/IDCard';
 
 function App() {
   const [cards, setCards] = useState([]);
+  const [examName,setExamName] = useState('');
+  const[examDate,setExamDate] = useState('');
   const cardRefs = useRef([]);
 
   // Adjust the number of refs when cards change
@@ -24,6 +26,22 @@ function App() {
   return (
     <div style={{ padding: '20px' }}>
       <h2>🪪 Upload Centre Incharge Excel Sheet</h2>
+
+      <input
+        type="text"
+        placeholder="Exam Name"
+        value={examName}
+        onChange={(e) => setExamName(e.target.value)}
+        style={{ marginRight: '10px' }}
+      />
+      <input
+        type="text"
+        placeholder="Exam Date"
+        value={examDate}
+        onChange={(e) => setExamDate(e.target.value)}
+      />
+
+      <br></br>
       <input type="file" accept=".xlsx, .xls" onChange={handleFileUpload} />
 
       <div
@@ -42,6 +60,8 @@ function App() {
               centreName={item['Centre Name']}
               name={item['Name']}
               contact={item['Contact No.']}
+              examName={examName}
+              examDate={examDate}
             />
           </div>
         ))}

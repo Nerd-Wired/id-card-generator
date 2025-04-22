@@ -17,17 +17,17 @@
   }
   
   .name {
-    top: 290px;
+    top: 268px;
     left: 95px;
   }
   
   .centre-code {
-    top: 210px;
+    top: 185px;
     left: 150px;
   }
   
   .centre-name {
-    top: 235px;
+    top: 215px;
     left: 130px;
     font-size: 11px;
     position: absolute;
@@ -35,12 +35,25 @@
   }
   
   .contact {
-    top: 325px;
+    top: 308px;
     left: 135px;
   }
   
   .serial-no {
-    top: 52px;
+    top: 34px;
     left: 110px;
+  }
+
+  .exam-name {
+    top: 120px;
+    left: 130px;
+    font-size: 14px;
+    
+  }
+  
+  .exam-date {
+    top: 153px;
+    left: 130px;
+    font-size: 14px;
   }
   
