@@ -12,22 +12,22 @@
     position: absolute;
     color: black;
     font-size: 16px;
-    font-weight: bold;
+    font-weight: 400;
     /*font-style: oblique;*/
   }
   
   .name {
-    top: 268px;
+    top: 252px;
     left: 95px;
   }
   
   .centre-code {
-    top: 185px;
+    top: 170px;
     left: 150px;
   }
   
   .centre-name {
-    top: 215px;
+    top: 200px;
     left: 130px;
     font-size: 11px;
     position: absolute;
@@ -35,25 +35,29 @@
   }
   
   .contact {
-    top: 308px;
+    top: 293px;
     left: 135px;
   }
   
   .serial-no {
-    top: 34px;
+    top: 19px;
     left: 110px;
   }
 
   .exam-name {
-    top: 120px;
-    left: 130px;
-    font-size: 14px;
+    top: 101px;
+    left: 122px;
+    font-size: 18px;
+    font-weight: bolder;
+    font-family:'Times New Roman', Times, serif;
+    
     
   }
   
   .exam-date {
-    top: 153px;
-    left: 130px;
-    font-size: 14px;
+    top: 136px;
+    left: 114px;
+    font-size: 16px;
+    font-weight:bolder;
   }
   
