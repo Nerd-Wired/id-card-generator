@@ -1,6 +1,6 @@
 import React, { useRef, useState, useEffect } from 'react';
 import { exportToPDF } from './utils/pdfExporter';
-import { excelParser } from './utils/excelParser';
+import { excelParser } from './utils/excelparser';
 import IDCard from './components/IDCard';
 
 function App() {
