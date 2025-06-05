@@ -1,8 +1,8 @@
 .idcard {
     width: 500px;
-    height: 600px;
+    height: 700px;
     background-image: url('../assets/id0.png'); /* your PNG */
-    background-size: cover;
+    background-size: contain;
     background-repeat: no-repeat;
     position: relative;
     margin: 10px;
