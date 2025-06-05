@@ -1,7 +1,7 @@
 .idcard {
     width: 500px;
     height: 600px;
-    background-image: url('../assets/id-card-template.png'); /* your PNG */
+    background-image: url('../assets/id0.png'); /* your PNG */
     background-size: cover;
     background-repeat: no-repeat;
     position: relative;
